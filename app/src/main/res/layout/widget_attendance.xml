@@ -1,1 +1,12 @@
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+ android:padding="16dp" android:background="@drawable/widget_bg">
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="✳ FIVE LENSES"
+  android:textColor="#C9F36A" android:textStyle="bold" android:textSize="12sp"/>
+ <TextView android:id="@+id/widget_date" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="YOUR DAILY CLARITY" android:textColor="#F4F6FF" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="8dp"/>
+ <TextView android:id="@+id/widget_stats" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="0 reflections solved · 0 days attended" android:textColor="#AAB4CA" android:textSize="12sp" android:layout_marginTop="8dp"/>
+ <TextView android:id="@+id/widget_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="M  T  W  T  F  S  S" android:textColor="#C9F36A" android:textSize="12sp" android:layout_marginTop="12dp"/>
+</LinearLayout>
