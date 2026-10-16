@@ -41,7 +41,7 @@ class AttendanceWidget : AppWidgetProvider() {
             )
 
             val count = Store.attendanceCount(context)
-            val solved = Store.notes(context).count { it.completed }
+            val solved = Store.notes(context).size
 
             views.setTextViewText(
                 R.id.widget_stats,
